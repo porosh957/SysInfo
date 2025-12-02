@@ -43,6 +43,9 @@
     return 'Unknown (' + ua.split(' ')[0] + ')';
   }
 
+  const icon =
+    "Untitled.png"
+  
   class SysInfo {
     getInfo() {
       return {
